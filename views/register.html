@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>MercadoLiebre - Registro</title>
+</head>
+<body>
+        <header class="site__header">
+      <div class="wrapper">
+        <div class="img-container">
+          <img class="header__logo" src="/images/logo-mercado-liebre.svg" alt="" />
+        </div>
+        <div class="search__bar--container">
+        <form class="search__bar" action="">
+         <label class="search-bar-label" for="search-bar">
+          <input class="search-bar" id="search-bar" type="search" placeholder="Buscar productos" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </label>
+        </form>
+        </div>
+        <div class="subtitle-container">
+          <i class="fa-solid fa-hand-holding-dollar"></i>  
+        <p>Compra en cuotas y sin tarjeta de crédito</p>
+        </div>
+      </div>
+    <!--    NAVBAR     -->
+
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <li class="navbar__item"><a href="#">Ofertas</a></li>
+          <li class="navbar__item"><a href="#">Tiendas Oficiales</a></li>
+          <li class="navbar__item"><a href="#">Vender</a></li>
+          <li class="navbar__item"><a href="#">Ayuda</a></li>
+        </ul>
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#">Crea tu cuenta</a>
+            <svg
+              class="icon-size-1rem"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+            >
+              <path
+                d="M528 160V416c0 8.8-7.2 16-16 16H320c0-44.2-35.8-80-80-80H176c-44.2 0-80 35.8-80 80H64c-8.8 0-16-7.2-16-16V160H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM272 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm104-48c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z"
+              />
+            </svg>
+          </li>
+          <li class="navbar__item">
+            <a href="#">Ingresá</a>
+            <svg
+              class="icon-size-1rem"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M217.9 105.9L340.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L217.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1L32 320c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM352 416l64 0c17.7 0 32-14.3 32-32l0-256c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0c53 0 96 43 96 96l0 256c0 53-43 96-96 96l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
+              />
+            </svg>
+          </li>
+          <li class="navbar__item">
+            <a href="#">Mis compras</a>
+            <svg
+              class="icon-size-1rem"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+            >
+              <path
+                d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"
+              />
+            </svg>
+          </li>
+        </ul>
+      </nav>
+    <!--    FIN NAVBAR     -->
+      <div class="burger-menu center-text">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <main>
+        <h1 class="registration__title">Formulario de Registro</h1>
+        <form class="registration__form" action="">
+           
+            <input class="form__fields" type="text" name="nombreCompleto" placeholder="Nombre y apellido" id="">
+
+            <input class="form__fields" type="text" name="nombreUsuario" placeholder="Nombre de usuario" id="">
+            
+            <input class="form__fields" type="email" name="email" placeholder="E-mail">
+            <!-- Fecha de Nac -->
+            <h3 class="titulo__form">Fecha de Nacimiento</h3>
+            <input class="form__fields" type="date" name="fechaNacimiento" id="">
+
+            <input class="form__fields" type="text" name="domicilio" placeholder="Domicilio" id="">
+            <!-- Perfil de usuario -->
+            <h3 class="titulo__form">Perfil del usuario</h3>
+             <div class="contenedor__perfil">
+               
+             <label for="perfilUsuario"> 
+                <input type="radio" name="perfilUsuario" value="comprador"> Comprador 
+            </label>
+            <label for="perfilUsuario">
+            <input type="radio" name="perfilUsuario" value="vendedor"> Vendedor
+            </label>
+                </div>
+            
+            
+            <!-- checkbox intereses -->
+             <h3 class="titulo__form">Intereses</h3>
+             <div class="contenedor__intereses">
+             <label for="intereses">
+            <input type="checkbox" name="intereses" value="electro"> Electro
+             </label>
+            <label for="intereses">
+
+            <input type="checkbox" name="intereses" value="moda"> Moda
+        </label>
+            <label for="intereses">
+
+            <input type="checkbox" name="intereses" value="hogar"> Hogar
+        </label>
+            <label for="intereses">
+
+            <input type="checkbox" name="intereses" value="jugueteria"> Jugueteria
+        </label>
+            <label for="intereses">
+
+            <input type="checkbox" name="intereses" value="vidaSana"> Vida sana
+        </label>
+        </div>
+            <!-- Foto usuario -->
+            <h3 class="titulo__form">Foto de Perfil</h3>
+             <input type="file" accept="image/jpg, image/png, image/jpeg" name="foto__perfil" id="foto__perfil">
+            <!-- Contraseña  y confirmacion-->
+             <input class="form__fields" type="password" name="password" placeholder="Escriba su contraseña" id="">
+             <input class="form__fields" type="password" name="password" placeholder="Confirme su contraseña" id="">
+
+            <!-- Boton de enviar formulario-->
+             <button class="form__button" type="submit">Enviar</button>
+            <!-- Boton de limpiar formulario-->
+            <button class="form__button" type="reset">Borrar</button>
+        </form>
+    </main>
+</body>
+</html>
