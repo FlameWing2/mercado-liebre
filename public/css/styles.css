@@ -306,6 +306,17 @@ body {
   transform: rotate(-90deg)
 }
 
+.card-icon:hover {
+  color:var(--clr--darkblue)
+}
+
+.gift-icon:hover {
+  color: #f64d4d;
+}
+
+.shield-icon:hover{
+  color: var(--clr--green);
+}
 
 /* Media Queries */
 
@@ -360,9 +371,12 @@ body {
     }
 
     .article__card {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     max-width: 20rem;
 
+  }
+
+  .article__card:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 
   .wrapper{
